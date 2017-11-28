@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_Battleships.Pages.MainMenu_Page"
+             Title="BattleShips"
+             BackgroundImage="Dreadnought2.jpg" >
+
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0"
+                Android="0, 0, 0, 0"/>
+    </ContentPage.Padding>
+
+
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+            <Image Source="battleshipLOGO.png" />
+
+            <Button Text="Create User" 
+                    Clicked="Button_Clicked_Create" 
+                    BackgroundColor="Silver"
+                    FontSize="Large"
+                    Opacity="0.6"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+
+            <Button Text="Log in" 
+                    Clicked="Button_Clicked_LogIN"
+                    BackgroundColor="Silver"
+                    FontSize="Large"
+                    Opacity="0.6" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center"/>
+
+            <Button Text="Credits" 
+                    Clicked="Button_Clicked_Credits" 
+                    BackgroundColor="Silver"
+                    FontSize="Large"
+                    Opacity="0.6" HorizontalOptions="Center" 
+                    VerticalOptions="Center"/>
+
+            <Button Text="Options"
+                    Clicked="Button_Clicked_Options"
+                    BackgroundColor="Silver" 
+                    FontSize="Large"
+                    Opacity="0.6"
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center"/>
+            
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
