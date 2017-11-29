@@ -16,8 +16,7 @@ namespace Xamarin_Battleships.Pages
         {
 
         }
-
-
+        
         private void Button_Clicked_Graphics(object sender, EventArgs e)
         {
 
