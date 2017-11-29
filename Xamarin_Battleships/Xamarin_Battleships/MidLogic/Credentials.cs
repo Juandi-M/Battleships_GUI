@@ -8,7 +8,7 @@ namespace Xamarin_Battleships
 {
     class Credentials
     {
-        public static string Username = "Xamarin";
-        public static string Password = "password";
+        public static string Username = "juan";
+        public static string Password = "1234";
     }
 }
