@@ -9,12 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace Xamarin_Battleships.Pages
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class CreateUser_Page : ContentPage
-	{
-		public CreateUser_Page ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Credits : ContentPage
+    {
+        public Credits()
+        {
+            InitializeComponent();
+        }
+    }
 }

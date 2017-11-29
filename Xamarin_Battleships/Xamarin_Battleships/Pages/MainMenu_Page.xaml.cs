@@ -15,11 +15,10 @@ namespace Xamarin_Battleships.Pages
         public MainMenu_Page()
         {
             InitializeComponent();
-           
 
         }
-        
-        private void Button_Clicked_Create(object sender, EventArgs e)
+
+        private void Button_Clicked_Start(object sender, EventArgs e)
         {
 
         }
@@ -31,17 +30,13 @@ namespace Xamarin_Battleships.Pages
 
         private void Button_Clicked_Credits(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Credits());
         }
 
         private void Button_Clicked_Options(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Options());
         }
 
-        private void BButton_Clicked_Options(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Xamarin.Forms;
 
 namespace Xamarin_Battleships
@@ -11,13 +10,14 @@ namespace Xamarin_Battleships
     {
          
         public static bool IsUserLoggedIn { get; set; }
+        public static object Navigation { get; internal set; }
 
         public App()
         {
             InitializeComponent();
 
             MainPage = new Pages.MainMenu_Page();
-
+            
             if (!IsUserLoggedIn)
             {
                 MainPage = new NavigationPage(new Pages.LogIn_Page());
@@ -26,6 +26,7 @@ namespace Xamarin_Battleships
             {
                 MainPage = new NavigationPage(new Xamarin_Battleships.Pages.MainMenu_Page());
             }
+            
         }
 
         protected override void OnStart()

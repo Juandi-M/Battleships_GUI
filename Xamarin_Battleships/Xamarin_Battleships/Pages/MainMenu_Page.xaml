@@ -18,20 +18,12 @@
 
             <Image Source="battleshipLOGO.png" />
 
-            <Button Text="Create User" 
-                    Clicked="Button_Clicked_Create" 
+            <Button Text="Start" 
+                    Clicked="Button_Clicked_Start" 
                     BackgroundColor="Silver"
                     FontSize="Large"
                     Opacity="0.6"
                     HorizontalOptions="Center"
-                    VerticalOptions="Center"/>
-
-            <Button Text="Log in" 
-                    Clicked="Button_Clicked_LogIN"
-                    BackgroundColor="Silver"
-                    FontSize="Large"
-                    Opacity="0.6" 
-                    HorizontalOptions="Center" 
                     VerticalOptions="Center"/>
 
             <Button Text="Credits" 
@@ -48,8 +40,8 @@
                     Opacity="0.6"
                     HorizontalOptions="Center" 
                     VerticalOptions="Center"/>
-            
-            
+
+
 
         </StackLayout>
     </ContentPage.Content>

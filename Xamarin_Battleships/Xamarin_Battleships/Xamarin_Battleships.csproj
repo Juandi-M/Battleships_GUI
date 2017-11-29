@@ -41,11 +41,11 @@
     <Compile Include="MidLogic\Credentials.cs" />
     <Compile Include="MidLogic\LogIn_Page.cs" />
     <Compile Include="MidLogic\SignUp_Page.cs" />
-    <Compile Include="Pages\CreateGame_Page.xaml.cs">
-      <DependentUpon>CreateGame_Page.xaml</DependentUpon>
+    <Compile Include="Pages\Credits.xaml.cs">
+      <DependentUpon>Credits.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\CreateUser_Page.xaml.cs">
-      <DependentUpon>CreateUser_Page.xaml</DependentUpon>
+    <Compile Include="Pages\GameTypes.xaml.cs">
+      <DependentUpon>GameTypes.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\LogIn_Page.xaml.cs">
       <DependentUpon>LogIn_Page.xaml</DependentUpon>
@@ -53,8 +53,14 @@
     <Compile Include="Pages\MainMenu_Page.xaml.cs">
       <DependentUpon>MainMenu_Page.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Options.xaml.cs">
+      <DependentUpon>Options.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\SignUp_Page.xaml.cs">
       <DependentUpon>SignUp_Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\StartGame.xaml.cs">
+      <DependentUpon>StartGame.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MidLogic\User.cs" />
@@ -86,18 +92,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pages\CreateUser_Page.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Pages\CreateGame_Page.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Pages\MainMenu_Page.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
@@ -116,6 +110,30 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\SignUp_Page.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\StartGame.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\GameTypes.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Credits.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Options.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
